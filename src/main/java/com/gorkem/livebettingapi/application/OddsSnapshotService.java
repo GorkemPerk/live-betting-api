@@ -20,6 +20,7 @@ public class OddsSnapshotService {
     public boolean isOddsLocked(Long eventId) {
         return lockedOddsMap.containsKey(eventId);
     }
+
     public void releaseOdds(Long eventId) {
         lockedOddsMap.remove(eventId);
     }
