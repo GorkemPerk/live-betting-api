@@ -1,0 +1,37 @@
+[
+  {
+    "name": "gorkem1",
+    "id": "1",
+    "bank": "bank",
+    "iban": "TR90",
+    "tckn": "123"
+  },
+  {
+    "name": "gorkem2",
+    "id": "2",
+    "bank": "bank",
+    "iban": "TR90",
+    "tckn": "1234"
+  },
+  {
+    "name": "gorkem3",
+    "id": "3",
+    "bank": "bank",
+    "iban": "TR90",
+    "tckn": "1235"
+  },
+  {
+    "name": "gorkem4",
+    "id": "4",
+    "bank": "bank",
+    "iban": "TR90",
+    "tckn": "1236"
+  },
+  {
+    "name": "gorkem5",
+    "id": "5",
+    "bank": "bank",
+    "iban": "TR90",
+    "tckn": "1237"
+  }
+]

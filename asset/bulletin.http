@@ -1,0 +1,33 @@
+### maç oluştur
+POST {{host}}/api/v1/bulletin/event
+Content-Type: application/json
+
+{
+  "league": "turkey",
+  "homeTeamName": "beşiktaş",
+  "awayTeamName": "galatasaray",
+  "eventType": "FOOTBALL",
+  "bettingOdds": {
+    "home": 0.9,
+    "draw": 1.1,
+    "away": 2.1
+  },
+  "startDate": "2025-05-23T17:00:57.744Z"
+}
+
+### maç oluştur
+POST {{host}}/api/v1/bulletin/event
+Content-Type: application/json
+
+{
+  "league": "turkey",
+  "homeTeamName": "fenerbahce",
+  "awayTeamName": "trabzonspor",
+  "eventType": "FOOTBALL",
+  "bettingOdds": {
+    "home": 0.2,
+    "draw": 0.3,
+    "away": 0.4
+  },
+  "startDate": "2025-05-22T17:00:57.744Z"
+}

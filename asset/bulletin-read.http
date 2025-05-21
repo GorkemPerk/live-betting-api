@@ -1,0 +1,2 @@
+GET {{host}}/api/v1/bulletin-read/events?page=1&size=50
+Content-Type: application/json

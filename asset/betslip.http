@@ -1,0 +1,11 @@
+POST {{host}}/api/v1/bet/slip
+Content-Type: application/json
+x-customer-id: 2
+
+{
+  "eventId": 1,
+  "betType": "DRAW",
+  "couponCount": 1,
+  "amount": 200.1,
+  "selectedOdds":  1.48
+}
